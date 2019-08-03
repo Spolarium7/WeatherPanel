@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label x:Name="lblSummary" Content="Summary" HorizontalAlignment="Left" Margin="240,79,0,0" VerticalAlignment="Top" Width="516" Height="59" FontSize="36"/>
+        <Button x:Name="btnGetWeather" Content="Get Weather" HorizontalAlignment="Left" Margin="240,327,0,0" VerticalAlignment="Top" Width="453" Height="47" FontSize="24"/>
 
     </Grid>
 </Window>
