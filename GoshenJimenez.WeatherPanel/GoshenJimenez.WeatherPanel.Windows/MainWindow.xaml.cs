@@ -39,7 +39,7 @@ namespace GoshenJimenez.WeatherPanel.Windows
 
             var area = JsonConvert.DeserializeObject<WeatherArea>(content);
 
-            lblSummary.Content = DateTime.Now.ToString("hh:mm tt");
+            lblSummary.Content = area.Currently.Summary;
         }
     }
 }
