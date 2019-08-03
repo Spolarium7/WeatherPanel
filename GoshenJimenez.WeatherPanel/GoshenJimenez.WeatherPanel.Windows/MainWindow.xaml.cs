@@ -24,5 +24,10 @@ namespace GoshenJimenez.WeatherPanel.Windows
         {
             InitializeComponent();
         }
+
+        private void BtnGetWeather_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
