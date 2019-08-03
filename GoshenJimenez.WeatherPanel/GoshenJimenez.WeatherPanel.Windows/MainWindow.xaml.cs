@@ -27,7 +27,7 @@ namespace GoshenJimenez.WeatherPanel.Windows
 
         private void BtnGetWeather_Click(object sender, RoutedEventArgs e)
         {
-
+            lblSummary.Content = DateTime.Now.ToString("hh:mm tt");
         }
     }
 }
