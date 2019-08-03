@@ -34,6 +34,8 @@ namespace GoshenJimenez.WeatherPanel.Windows
 
             IRestResponse response = client.Execute(request);
 
+            var content = response.Content;
+
 
             lblSummary.Content = DateTime.Now.ToString("hh:mm tt");
         }
